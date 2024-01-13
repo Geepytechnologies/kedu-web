@@ -21,7 +21,7 @@ const Header = (props: Props) => {
       <div className="flex items-center justify-center">
         <div className="flex flex-col text-white w-[80%] items-center justify-center">
           <p className="font-[poppins] text-[2rem]">
-            Improving Mental wellbeing
+            Improving General wellbeing
           </p>
           <p className="font-[poppins] font-[500] text-center text-[3rem]">
             Let&apos;s Get You Back To Your Best Through Our Organized Schemes.

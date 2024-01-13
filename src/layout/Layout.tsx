@@ -1,18 +1,19 @@
 import React from "react";
 import Header from "../components/Header";
-import Mission from "../components/Mission";
 import Footer from "../components/Footer";
 
-type Props = {};
+type Props = {
+  children: React.ReactNode;
+};
 
-const Home = (props: Props) => {
+const Layout = ({ children }: Props) => {
   return (
-    <div>
+    <div className="min-h-screen">
       <Header />
-      <Mission />
+      {children}
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default Layout;

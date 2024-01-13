@@ -3,12 +3,12 @@ import Layout from "../layout/Layout";
 
 type Props = {};
 
-const NotFound = (props: Props) => {
+const Fitness = (props: Props) => {
   return (
     <Layout>
-      <div>NotFound</div>
+      <div>Fitness</div>
     </Layout>
   );
 };
 
-export default NotFound;
+export default Fitness;
