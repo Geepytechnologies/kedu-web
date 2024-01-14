@@ -5,7 +5,7 @@ type Props = {};
 const Ai = (props: Props) => {
   return (
     <div className="w-full my-[50px] flex justify-center items-center">
-      <div className="w-[80%] flex flex-col items-center gap-6 py-6">
+      <div className="md:w-[80%] w-[90%] flex flex-col items-center gap-6 py-6">
         <p className="font-[poppins] font-[500] text-center md:text-start text-[30px] text-[#bfa85b]">
           An Improved World With Artificial Intelligence
         </p>

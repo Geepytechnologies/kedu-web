@@ -8,11 +8,11 @@ type Props = {};
 
 const Pitchcards = (props: Props) => {
   return (
-    <div className="flex flex-col lg:flex-row gap-5 md:gap-5 lg:gap-9 justify-center items-center -translate-y-[50px]">
+    <div className="flex flex-col px-4 lg:flex-row gap-5 md:gap-5 lg:gap-9 justify-center items-center -translate-y-[50px]">
       {/* 1 */}
       <motion.div
         initial={{
-          y: -50,
+          y: -20,
         }}
         whileInView={{
           y: 0,
@@ -38,14 +38,13 @@ const Pitchcards = (props: Props) => {
       {/* 2 */}
       <motion.div
         initial={{
-          y: -50,
+          y: -20,
         }}
         whileInView={{
           y: 0,
         }}
         transition={{
           duration: 0.5,
-          delay: 0.2,
         }}
         className="bg-primary2 flex gap-3 md:w-[400px] w-[300px] items-center min-h-[150px] rounded-[24px] px-4 py-3"
       >
@@ -64,14 +63,13 @@ const Pitchcards = (props: Props) => {
       {/* 3 */}
       <motion.div
         initial={{
-          y: -50,
+          y: -20,
         }}
         whileInView={{
           y: 0,
         }}
         transition={{
           duration: 0.5,
-          delay: 0.4,
         }}
         className="bg-primary2 flex gap-3 md:w-[400px] w-[300px] items-center min-h-[150px] rounded-[24px] px-4 py-3"
       >

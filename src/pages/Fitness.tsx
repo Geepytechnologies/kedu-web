@@ -36,7 +36,7 @@ const Fitness = (props: Props) => {
                   duration: 0.5,
                 }}
                 src="/ladygym.jpg"
-                className="h-[300px] object-cover rounded-md"
+                className="h-[450px] w-full object-cover object-center rounded-md"
               />
               <div className="flex flex-col gap-3 p-3">
                 <p>

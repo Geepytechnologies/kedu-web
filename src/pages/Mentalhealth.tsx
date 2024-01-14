@@ -36,7 +36,7 @@ const Mentalhealth = (props: Props) => {
                   duration: 0.5,
                 }}
                 src="/drugs1.jpg"
-                className="h-[300px] object-cover rounded-md"
+                className="h-[450px] w-full object-center object-cover rounded-md"
               />
               <div className="flex flex-col gap-3 p-3">
                 <p>
