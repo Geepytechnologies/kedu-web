@@ -20,7 +20,7 @@ const Header = (props: Props) => {
               <FaHeadset />
               <p>021 3456 789</p>
             </div>
-            <div className="px-3 py-2 border rounded-md">Contact Us</div>
+            {/* <div className="px-3 py-2 border rounded-md">Contact Us</div> */}
           </div>
         </div>
         {/* headercontent */}
