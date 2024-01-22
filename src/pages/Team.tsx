@@ -5,9 +5,9 @@ type Props = {};
 
 const teamdata = [
   {
-    name: "Enwereuzor Victor",
+    name: "Enwereuzor Angela",
     role: "CEO/ Co-Founder",
-    image: "/victor.jpg",
+    image: "/angela.jpg",
   },
   {
     name: "Dr Usiosefe Anthony Ereyimwen",
