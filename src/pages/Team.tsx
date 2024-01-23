@@ -20,7 +20,7 @@ const teamdata = [
     image: "/ijeoma.JPG",
   },
   {
-    name: "Enwereuzor Godspower",
+    name: "Geepy Best",
     role: "CTO",
     image: "/geepy.jpeg",
   },
